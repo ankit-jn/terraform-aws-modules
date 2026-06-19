@@ -1,4 +1,4 @@
-## Terraform AWS Examples
+## Terraform AWS Modules
 
 This repository is to develop for terraform aws modules for provisioning resources in AWS.
 
