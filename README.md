@@ -50,6 +50,10 @@ This repository is to develop for terraform aws modules for provisioning resourc
 
 [Module: Terraform AWS VPC](https://github.com/ankit-jn/terraform-aws-modules/tree/main/aws-vpc)
 
+## Examples
+
+[How to use?](https://github.com/ankit-jn/terraform-aws-examples)
+
 ### Authors
 
 Module is maintained by [Ankit Jain](https://github.com/ankit-jn) with help from [these professional](https://github.com/ankit-jn/terraform-aws-modules/graphs/contributors).
