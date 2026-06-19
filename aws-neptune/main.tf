@@ -1,6 +1,6 @@
 ## Security Group for Neptune
 module "neptune_security_group" {
-    source = "git::https://github.com/ankit-jn/terraform-aws-security-groups.git"
+    source = "../aws-security-groups"
 
     count = var.create_sg ? 1 : 0
 

@@ -1,5 +1,5 @@
 module "devops_bucket" {
-    source = "git::https://github.com/ankit-jn/terraform-aws-s3"
+    source = "../aws-s3"
     
     count = local.create_devops_bucket ? 1 : 0
 

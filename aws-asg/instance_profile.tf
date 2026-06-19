@@ -1,6 +1,6 @@
 ## Instance profile - IA<M Role
 module "instance_profile_role" {
-    source = "git::https://github.com/ankit-jn/terraform-aws-iam.git"
+    source = "../aws-iam/"
     
     count = var.create_instance_profile_role ? 1 : 0
 

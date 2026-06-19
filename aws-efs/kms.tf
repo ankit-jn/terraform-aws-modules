@@ -1,6 +1,6 @@
 ## Provision KMS Key for encryption Disk
 module "encryption" {
-    source = "git::https://github.com/ankit-jn/terraform-aws-kms.git"
+    source = "../aws-kms"
 
     count = local.create_kms_key ? 1 : 0
 

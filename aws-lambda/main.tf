@@ -167,7 +167,7 @@ resource aws_lambda_function_url "this" {
 
 ## Lambda Execution IAM Role
 module "lambda_role" {
-    source = "git::https://github.com/ankit-jn/terraform-aws-iam.git"
+    source = "../aws-iam"
     
     count = var.create_role ? 1 : 0
 
